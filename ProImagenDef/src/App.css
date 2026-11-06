@@ -1,0 +1,59 @@
+:root {
+  --pricipal:gray;
+  --secundario:green;
+
+
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+}
+
+.editorInit{
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+
+.barra{
+    background-color: var(--pricipal);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.compont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.seccion{
+    height: 50vh;
+    margin: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 16px rgb(128, 128, 128, 0.5);
+    padding: 0.5rem;
+    transition: trasfomr 10s ease-in-out;
+}
+.seccion:hover{
+    transform: scale(1.02);
+}
+
+.vista{
+    width: 100%;
+}
+.cont{
+    width: 100%;
+}
